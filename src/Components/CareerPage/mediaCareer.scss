@@ -1,0 +1,32 @@
+@media(max-width:768px) {
+    .career_info{
+        .banner{
+            padding: 20px;
+            .content-section{
+                h3{
+                    font-size: 30px;
+                }
+             
+            }
+        }
+
+        .formForCareer{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: space-between;
+            .careerDetails{
+                background-color: black;
+                width: 350px;
+                color: #fff;
+                text-align: left;
+                margin-top: 20px;
+                padding: 20px;
+              
+            
+          
+            }
+        }
+    }
+}

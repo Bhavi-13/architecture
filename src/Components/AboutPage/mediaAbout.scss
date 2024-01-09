@@ -1,0 +1,174 @@
+@media (max-width:768px){
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-size: 16px; 
+        }
+
+        .about_info{
+            .banner {
+                padding: 50px;
+
+            }
+            .desire_design{
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 50px;
+                .sideImage{
+                    img{
+                        width: 340px;
+                        height: 340px;
+                        margin: auto;
+                    };
+                }
+                .sideContent{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                
+                    .info{
+                        text-align: justify;
+                        font-size: 12px;
+                        line-height: 30px;
+                        font-weight: lighter;
+                        color: grey;
+                    }
+                    button{
+                        font-size: 10px;
+                        padding: 10px 20px;
+                        &:hover{
+                            padding: 10px 20px;
+                            font-size: 10px;
+                            
+                        }
+                    }
+                }
+            }
+            
+            .projects {
+                padding: 30px;
+            
+                .workingSteps{
+                    
+                    .flipCards{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        justify-content: center;
+                        .card{
+                            width: 100%;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+
+            .philosophy{
+                padding: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            
+                .founderImage{
+                    img{
+                        margin: 20px;
+                        width: 320px;
+                        height: 300px;
+                    }
+                }
+                .founderContent{
+                    padding: 20px;
+                    width: 300px;
+                    span{
+                        color: rgb(154, 151, 151);
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+                .projectIcons{
+                    .linkHeadings{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        gap: 20px;
+                    }
+        
+                    p{
+                        color: grey;
+                        font-size: 14px;
+                        border-bottom: 1px solid grey;
+                        font-weight: 600;
+                        padding: 0px 10px;
+                        &:hover{
+                            color: #fff;
+                            border-bottom: 2px solid #fff;
+                            font-weight: 600;
+                        }
+                        }
+                }
+            }
+            
+            .works{
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+                .workContent{
+                    margin: 0px;
+                    span{
+                        font-size: 14px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                    details{
+                        
+                        border-bottom: 1px solid #b3b1b1;
+                    }
+                    summary{
+                        font-weight: 600;
+                        margin: 10px;
+                    }
+                    .summeryContent{
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 3s ease-in-out;
+                        color: grey;
+                        letter-spacing: 1px;
+                        line-height: 30px;
+                        width: 90%;
+                        margin: 10px;
+                    }
+                    details[open] .summeryContent {
+                        max-height: 1500px;
+                    }
+                }
+                .workImage{
+                    img{
+                        width: 330px;
+                        height: 300px;
+                    }
+                }
+            } 
+                   
+
+                .dashboardContent{
+                    margin: 20px 10px;
+                        .content{
+                            span{
+                                font-size: 14px;
+                            }
+                            p{
+                                font-size: 8px;
+                            }
+                        }
+                }
+                
+            }
+        }
+             

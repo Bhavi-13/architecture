@@ -1,0 +1,356 @@
+$image-path: '../../Components/assets/images/architecturepic.jpeg';
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.home_info{
+    .banner{
+        .carousel{
+          
+            img{
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+        // padding: 200px;
+        // background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url("#{$image-path}");
+        // background-size:cover;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        .content-section{
+            text-align: center;
+            color: #fff;
+            margin-top: 80px;
+            .tag{
+                font-size: 34px;
+                font-weight: normal;
+            }
+            p{
+                font-size: 14px;
+            }
+            button{
+                background-color: #222;
+                color: #fff;
+                padding: 15px 25px;
+                font-size: 10px;
+                border: none;
+                font-weight: bold;
+                &:hover{
+                    background-color: #fff;
+                    color: #222;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+   
+    .desire_world{
+        margin: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+        .sideImage{
+            img{
+                width: 550px;
+                height: 500px;
+                border-radius: 50%;
+                object-fit: cover
+            };
+        }
+        .sideContent{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 50px;
+            .info{
+                text-align: justify;
+                font-size: 17px;
+                line-height: 30px;
+                font-weight: lighter;
+                color: grey;
+            }
+            button{
+                width: 25%;
+                background-color: #222222;
+                color: #fff;
+                margin: auto;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 20px 30px;
+                &:hover{
+                    background-color: #fff;
+                    color: #222;
+                    font-weight: lighter;
+                    padding: 20px 30px;
+                }
+            }
+        }
+    }
+
+    // WHAT CAN WE OFFER CONTENT
+    .offer{
+        text-align: center;
+        .offer_content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 0px 250px;
+         
+        }
+        .dots{
+            margin-bottom: 100px;
+        }
+        .service{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 100px;
+           
+
+        }
+        .designs{
+            width: 350px;
+                padding: 30px;
+            cursor: pointer;
+            &:hover{
+                background-color: #222; 
+                margin: 0;
+                width: 350px;
+                padding: 30px;
+                
+                h4{
+                    color: #fff;
+                }
+                button{
+                    background-color: #222;
+                    color: #cecccc;
+                }
+            }
+           
+            img{
+                width: 70px;
+                height: 70px;
+                margin-bottom: 30px;
+            }
+            h4{
+                font-weight: lighter;
+                
+            }
+            p{
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 30px;
+                letter-spacing: 1px;
+                color: grey;
+            }
+            button{
+                font-size: 12px;
+                border: none;
+                font-weight: 600;
+                color: grey;
+                letter-spacing: 1px;
+            }
+        } 
+    }
+    .projects {
+        background-color: #090707;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        .workingSteps{
+            text-align: center;
+            span{
+                margin-bottom: 40px;
+            }
+            .dots{
+                color: #fff;
+            }
+            .projectIcons{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 40px;
+                gap: 100px;
+                
+                .icon{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0;
+                    span{
+                        font-size: 60px;
+                        text-align: left;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    i{
+                        font-size: 70px;
+                        border-radius: 50%;
+                        margin: 0;
+                        padding: 0;
+                        width: 150px;
+                        padding: 25px;
+                        margin-top: -40px;
+                        margin-bottom: 40px;
+                        &:hover{
+                            background-color: #fff;
+                            border-radius: 50%;
+                            padding: 25px;
+                            color: #222;
+                            margin-top: -40px;
+                        }
+                    }
+                    .iconHeading{
+                        font-size: 20px;
+                        margin: 0;
+                    }
+                   
+                }
+                }
+            }
+        .projectImages{
+            .dots{
+                color: #fff;
+            }
+            .buttons {
+                button{
+                    background-color: #090707;
+                    border: none;
+                    color: #fff;
+                    margin: 40px 30px;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .badge{
+                    position: absolute;
+                    margin-top: -10px;
+                   
+                }
+            }
+            .image-container{
+                margin: 40px;
+                display: grid;
+                gap: 20px;
+                grid-auto-rows: auto;
+                grid-template-columns: repeat(3,1fr);
+                img{
+                    width: 450px;
+                    height: 450px;
+                }
+            }
+            button{
+                padding: 20px 30px;
+                font-size: 12px;
+                margin-bottom: 40px;
+                &:hover{
+                    background-color: #222;
+                    color: #fff;
+                    font-weight: 600;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    
+   
+    .dashboardContent{
+        display: flex;
+        flex-direction: row;
+        margin: 60px 250px;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 100px;
+        .content{
+            span{
+                font-size: 36px;
+                color: rgb(172, 169, 169);
+                margin-bottom: 20px;
+                font-weight: lighter;
+                text-align: center;
+            }
+            p{
+                font-size: 17px;
+                color: #222222;
+                font-weight: 600;
+                text-align: left;
+            }
+        }
+    }
+      
+
+    .clients{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         margin: 100px;
+        gap: 80px;
+        img{
+            color: lightgrey;
+            width: 130px;
+            height: 100px;
+        }
+    }
+
+    .extraInfo{
+        background-color: #0d0909;
+        color: #fff;
+        padding: 20px 200px;
+        details{
+            border-bottom: 1px solid #fff;
+        }
+        summary{
+            font-weight: 600;
+            margin: 10px;
+        }
+        .summeryContent{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 3s ease-in-out;
+            color: grey;
+            width: 80%;
+            margin: 30px;
+        }
+        details[open] .summeryContent {
+            max-height: 1000px; /* Adjust the desired maximum height for the sliding content */
+          }
+    }
+
+  
+       
+      
+         
+
+
+}
+
+span{
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 36px;
+    font-weight: 500;
+}
+.dots{
+    color: #222222;
+    font-size: 12px;
+    margin-bottom: 20px;
+    letter-spacing: 0ch;
+}
+.iconContent{
+    text-align: center;
+    margin: auto;
+    color: rgb(150, 149, 149);
+    font-size: 17px;
+    width: 55%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  
+    
+}

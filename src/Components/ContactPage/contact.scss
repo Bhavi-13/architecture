@@ -1,0 +1,106 @@
+$image-path: '../../Components/assets/images/Picture11.jpg';
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.contact_info{
+    .banner{
+        padding: 150px;
+        background-image:linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url("#{$image-path}");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .content-section{
+            text-align: center;
+            color: #fff;
+            margin-top: 80px;
+            h3{
+                font-size: 40px;
+            }
+            p{
+               
+                a{
+                    font-size: 18px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                span{
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+         
+        }
+    }
+
+    .contactDetails{
+        background-color: black;
+        width: 500px;
+        color: #fff;
+        text-align: left;
+        margin-left: 800px;
+        // position: relative;
+        // left: 50%;
+        margin-bottom: 400px;
+        margin-top: -100px;
+        padding: 100px 70px;
+        
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 16px;
+            color: grey;
+            margin-bottom: 20px;
+        }
+        .location{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-bottom: 30px;
+            i{
+                color: #fff;
+                font-size: 27px;
+                
+            }
+            .address{
+                display: flex;
+                flex-direction: column;
+                span{
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 15px;
+                    letter-spacing: normal;
+                }
+                p{
+                    color: #d3d2d2;
+                    font-size: 16px;
+                    font-weight: normal;
+                }
+            }
+           
+           
+                
+        }
+        .socialMediaLogos{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            
+            i{
+                color: #fff;
+                font-size: 12px;
+                border: 1px solid rgb(90, 89, 89);
+                border-radius: 100%;
+                padding: 5px;
+                padding-left: 5px;
+                text-align: center;
+                width: 30px;
+            }
+        }
+    }
+}

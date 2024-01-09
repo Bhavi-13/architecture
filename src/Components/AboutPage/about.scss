@@ -1,0 +1,264 @@
+$image-path: '../../Components/assets/images/Picture7.jpg';
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.about_info{
+    .banner{
+        padding: 150px;
+        background-image:linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url("#{$image-path}");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .content-section{
+            text-align: center;
+            color: #fff;
+            margin-top: 80px;
+            h3{
+                font-size: 30px;
+            }
+            p{
+               
+                a{
+                    font-size: 18px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                span{
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+         
+        }
+    }
+
+     // TAS-WORLD CONTENT
+     .desire_design{
+        margin: 120px;
+        margin-right: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+        .sideImage{
+            img{
+                width: 450px;
+                height: 400px;
+                border-radius: 50%;
+                object-fit: cover;
+            
+            };
+        }
+        .sideContent{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            span{
+                color: rgb(69, 68, 68);
+                font-size: 16px;
+                margin-top: 0PX;
+                font-weight: lighter;
+                letter-spacing: normal;
+            }
+            p{
+                font-size: 40px;
+            }
+            .info{
+                text-align: justify;
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: lighter;
+                color: rgb(64, 63, 63);
+            }
+            button{
+                width: 25%;
+                background-color: #222222;
+                color: #fff;
+                margin: auto;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 20px 30px;
+                &:hover{
+                    background-color: #fff;
+                    color: #222;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+
+    .projects {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        .workingSteps{
+            text-align: center;
+            span{
+                
+                margin-bottom: 40px;
+            }
+            .dots{
+                color: #fff;
+            }
+            .flipCards{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+               justify-content: center;
+                .card{
+                    background-color: #fff;
+                    width: 350px;
+                    padding: 30px;
+                    p{
+                        font-size: 12px
+                    };
+                }
+            }
+        }
+    }
+    .philosophy{
+        background-color: #090707;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+       
+        .founderImage{
+            img{
+                width: 750px;
+                height: 600px;
+            }
+        }
+        .founderContent{
+            padding: 70px;
+            width: 600px;
+            span{
+                color: rgb(154, 151, 151);
+            }
+            p{
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+        .projectIcons{
+            .linkHeadings{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                gap: 30px;
+            }
+         
+            margin-top: 30px;
+
+            p{
+                color: grey;
+                font-size: 16px;
+                border-bottom: 1px solid grey;
+                font-weight: 600;
+                padding: 0px 30px;
+                &:hover{
+                    color: #fff;
+                    border-bottom: 2px solid #fff;
+                    font-weight: 600;
+                }
+            }
+         }
+    }
+       
+   
+
+    .works{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+        .workContent{
+            margin-top: 150px;
+            margin-left: 150px;
+            span{
+                font-size: 16px;
+            }
+            p{
+                font-size: 40px;
+            }
+            details{
+                
+                border-bottom: 1px solid #b3b1b1;
+            }
+            summary{
+                font-weight: 600;
+                margin: 10px;
+            }
+            .summeryContent{
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 3s ease-in-out;
+                color: grey;
+                letter-spacing: 1px;
+                line-height: 30px;
+                width: 80%;
+                margin: 10px;
+            }
+            details[open] .summeryContent {
+                max-height: 1500px; /* Adjust the desired maximum height for the sliding content */
+              }
+        }
+        .workImage{
+            img{
+                width: 750px;
+                height: 650px;
+
+               
+            }
+        }
+    }
+
+    .dashboardContent{
+        display: flex;
+        flex-direction: row;
+        margin: 100px 200px;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 100px;
+        .content{
+            span{
+                font-size: 36px;
+                color: rgb(172, 169, 169);
+                margin-bottom: 20px;
+                font-weight: lighter;
+                text-align: center;
+            }
+            p{
+                font-size: 17px;
+                color: #222222;
+                font-weight: 600;
+                text-align: left;
+            }
+        }
+    }
+
+}
+      
+span{
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 36px;
+    font-weight: 500;
+}
+.linkContent{
+    text-align: left;
+    margin: 15px;
+    color: rgb(150, 149, 149);
+    font-size: 17px;
+    width: 100%;
+    
+   
+}
